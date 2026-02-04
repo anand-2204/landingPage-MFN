@@ -28,11 +28,10 @@ const LandingPage = () => {
               </a>
             </div>
 
-            <h2>Ask Questions, Get Answers</h2>
+            <h2>Find Lost Items Easily with GPS</h2>
             <p>
-              A smart Q&A platform to explore ideas, ask questions, get
-              meaningful answers, and share knowledge with the world. Fast,
-              clean, and free to use.
+              Use our app to easily discover lost items nearby with the help of AI assistance and smart geo‑tagging.
+               Our intelligent system quickly matches lost and found reports, making it faster to reunite owners with their belongings
             </p>
 
             <div className="btn">
@@ -130,8 +129,8 @@ const LandingPage = () => {
             </div>
             <h3>Ask or Answer</h3>
             <p>
-              Post your questions or share your knowledge by answering others'
-              queries.
+               "Report your lost items or help others by sharing what you’ve found."
+
             </p>
           </div>
           <div className="featureContent">
@@ -140,22 +139,24 @@ const LandingPage = () => {
             </div>
             <h3>Grow Together</h3>
             <p>
-              Build your reputation, connect with experts, and expand your
-              knowledge..
+              "Post details of what you’ve lost,
+              or assist others by responding to their 
+              listings."
+
             </p>
           </div>
         </div>
       </section>
       <section className="four">
         <h2>What Our Users Say</h2>
-        <p>Join thousands of satisfied knowledge seekers</p>
+        <p>Join thousands of satisfied users</p>
         <div className="features">
           <div className="featureContent">
             <div>⭐⭐⭐⭐⭐</div>
             <div>
               <p>
-                "Why&Who has completely changed how I learn. The community is
-                incredibly helpful and knowledgeable!"
+               I’m so relieved to have my laptop back! The process was smooth,
+                and I really appreciate the verification step—it made me feel secure that my item was returned to the right person."
               </p>
             </div>
             <div className="user">
@@ -173,8 +174,8 @@ const LandingPage = () => {
             <div>⭐⭐⭐⭐⭐</div>
             <div>
               <p>
-                "Best Q&A platform I've used. Fast, clean interface and
-                genuinely helpful answers every time."
+                Posting my lost phone was simple, and I quickly got matched with the finder.
+                 The clear instructions and mobile-friendly design made the whole experience stress-free."
               </p>
             </div>
             <div className="user">
@@ -192,8 +193,8 @@ const LandingPage = () => {
             <div>⭐⭐⭐⭐⭐</div>
             <div>
               <p>
-                I love sharing my knowledge here. The community appreciates
-                quality answers and it's very rewarding!"
+               "I never thought I’d see my wallet again, but thanks to this platform and the kind people using it, 
+               I did. It’s wonderful to have a space that encourages honesty and helps connect people."
               </p>
             </div>
             <div className="user">
@@ -210,18 +211,20 @@ const LandingPage = () => {
       </section>
       <section className="five">
         <div className="firstBox">
-          <h2>Our Vision</h2>
+          <h2>Our Mission</h2>
           <p>
-            {" "}
-            We believe that knowledge should flow freely and that every question
-            deserves a thoughtful answer. Why&Who is more than just a Q&A
-            platform—it's a community of curious minds helping each other grow.
+            
+            The Lost and Found Network is a 
+            GPS-based platform that allows users to report 
+            found items and search for lost belongings 
+            using AI-generated descriptions and geo tags 
+            for easy retrieval
           </p>
           <p>
-            Whether you're seeking answers to life's big questions or sharing
-            your expertise with others, Why&Who provides the perfect space for
-            meaningful knowledge exchange. Join us in building a world where
-            learning never stops.
+           Join our community to help reunite lost 
+           items with their owners. Simply take a picture, 
+           submit it, and let our AI assist in finding what 
+           you’ve lost or reporting what you’ve found.
           </p>
         </div>
         <div class="secondBox">
@@ -231,7 +234,7 @@ const LandingPage = () => {
               <img src="/bulb.png" alt="icon" />
             </div>
             <h3>1, 00, 000 +</h3>
-            <p>Questions Answered</p>
+            <p>Items Recovered</p>
           </div>
 
           <div class="partTwo">
@@ -254,10 +257,10 @@ const LandingPage = () => {
           <div className="footer-container">
             <div className="footer-top">
               <div className="footerDetails">
-                <h2>Ready to Start Your Journey?</h2>
+                <h2>Get in Touch</h2>
                 <p>
-                  Join thousands of curious minds on Why&Who today. It's free,
-                  fast, and fun!
+                 Reach out to us for assistance with lost items or to report
+                  found objects using our GPS-based platform.
                 </p>
 
                 <div className="btn">
@@ -278,8 +281,10 @@ const LandingPage = () => {
                     <img src="/37.png" alt="MFN Logo" width="200" height="60" />
                   </a>
                   <p className="footer-description">
-                    A modern Q&A platform where curious minds connect, learn,
-                    and grow through meaningful discussions.
+                   You can set up Find Hub so you’re prepared in case
+                    you lose your device. This feature works for phone,
+                     tablet, Wear OS watch, Android XR device, headphones,
+                      or something that has a tracker tag attached
                   </p>
                   <div className="footer-actions">
                     <a href="#">Visit Website</a>
