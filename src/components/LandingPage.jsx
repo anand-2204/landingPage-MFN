@@ -55,7 +55,8 @@ const LandingPage = () => {
         <p>Join thousands of curious minds exploring knowledge togetter</p>
         <div className="features">
           <div className="featureContent">
-            <img src="" alt="" />
+            <div className="imageBox">   <img src="/question.png" alt="" />  </div>
+           
             <h3>Ask Anything</h3>
             <p>
               Post your questions and get thoughtful answers from a community of
@@ -63,7 +64,8 @@ const LandingPage = () => {
             </p>
           </div>
           <div className="featureContent">
-            <img src="" alt="" />
+             <div className="imageBox">    <img src="/file.png" alt="" /> </div>
+           
             <h3>Share Knowledge</h3>
             <p>
               Contribute your expertise and help others learn. Build your
@@ -71,7 +73,8 @@ const LandingPage = () => {
             </p>
           </div>
           <div className="featureContent">
-            <img src="" alt="" />
+             <div className="imageBox">   <img src="/connect.png" alt="" />  </div>
+           
             <h3>Connect & Learn</h3>
             <p>
               Join a vibrant community of curious minds. Discover new
@@ -79,7 +82,8 @@ const LandingPage = () => {
             </p>
           </div>
           <div className="featureContent">
-            <img src="" alt="" />
+             <div className="imageBox">   <img src="/lightning.png" alt="" />  </div>
+           
             <h3>Lightning Fast</h3>
             <p>
               Get instant answers with our optimized platform. No waiting, just
@@ -87,7 +91,8 @@ const LandingPage = () => {
             </p>
           </div>
           <div className="featureContent">
-            <img src="" alt="" />
+             <div className="imageBox">     <img src="/shield.png" alt="" /> </div>
+          
             <h3>Safe & Secure</h3>
             <p>
               Your privacy matters. We ensure a safe environment for meaningful
@@ -95,7 +100,8 @@ const LandingPage = () => {
             </p>
           </div>
           <div className="featureContent">
-            <img src="" alt="" />
+             <div className="imageBox">  <img src="/doller.png" alt="" />  </div>
+            
             <h3>100% Free</h3>
             <p>
               No hidden costs, no premium tiers. Knowledge should be accessible
@@ -202,7 +208,46 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
-     
+      <section className="five">
+        <div className="firstBox">
+          <h2>Our Vision</h2>
+          <p>
+            {" "}
+            We believe that knowledge should flow freely and that every question
+            deserves a thoughtful answer. Why&Who is more than just a Q&A
+            platform—it's a community of curious minds helping each other grow.
+          </p>
+          <p>
+            Whether you're seeking answers to life's big questions or sharing
+            your expertise with others, Why&Who provides the perfect space for
+            meaningful knowledge exchange. Join us in building a world where
+            learning never stops.
+          </p>
+        </div>
+        <div class="secondBox">
+          <div className="bulbSection">
+          <div class="partOne">
+            <div class="bulb">
+              <img src="/bulb.png" alt="icon" />
+            </div>
+            <h3>1, 00, 000 +</h3>
+            <p>Questions Answered</p>
+          </div>
+
+          <div class="partTwo">
+            <div className="usercount">
+              <h3>50, 000 +</h3>
+              <p>Active Users</p>
+            </div>
+            <div className="TopicCount">
+              <h3>500 +</h3>
+              <p>Topics</p>
+            </div>
+          </div>
+          </div>
+          </div>
+        
+      </section>
 
       <section>
         <footer className="footer">

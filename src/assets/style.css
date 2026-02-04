@@ -150,11 +150,19 @@
   align-items: center;
   justify-content: center;
   background: rgb(245, 243, 243);
+
 }
 .two h2 {
   margin-top: 20px;
-  font-size: 45px;
+  font-size: 3em;
   font-family: 600;
+ text-align: center;
+}
+.two p{
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #555;
+  
 }
 .features {
   display: grid;
@@ -171,6 +179,25 @@
   border-radius: 8px;
   box-shadow: 0px 0px 16px rgba(0, 0, 0 0.5);
   transition: transform 0.5s ease;
+}
+.imageBox {
+  width:80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius:15px;
+  padding: 5px;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #6a00ff 30%, #db4eb3 100%);
+}
+.imageBox img{
+  width:50px;
+  height: 50px;
+  
+
+ object-fit: cover;
+  
 }
 .featureContent h3,
 .featureContent p,
@@ -191,8 +218,16 @@
   justify-content: center;
 }
 .three h2 {
-  font-size: 45px;
+  margin-top: 20px;
+  font-size: 3em;
   font-family: 600;
+ text-align: center;
+}
+.three p{
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #555;
+  
 }
 .three .featureContent {
   background: #fff;
@@ -238,8 +273,16 @@
 }
 
 .four h2 {
-  font-size: 45px;
+  margin-top: 20px;
+  font-size: 3em;
   font-family: 600;
+ text-align: center;
+}
+.four p{
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #555;
+  
 }
 .four .featureContent {
   background: #fff;
@@ -276,10 +319,113 @@
   font-size: 18px;
   line-height: 1;
 }
-/*  */
+.five{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+   background:  #6a00ff ;
+  align-items: center;
+  justify-content: center;
+  
+}
+.firstBox{
+   width: 50%;
+  color: #fff;
+  
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+  float: left;
+}
+.firstBox h2{
+  font-size: 3rem;
+  
+}
+.firstBox p{
+  font-size: 1.3rem;
+   margin-bottom: 1rem;
+}
 
+.secondBox{
+   width: 50%;
+   gap: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
+  float: right;
+}
+ .bulbSection{
+  width: 90%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  padding: 2rem;
+  background:  #7e30eb ;
+  border-radius: 40px;
+  margin-bottom: 2rem;
+}
+.bulbSection .bulb{
 
+  width: 100px;
+  height: 100px;
+  margin:  auto;
+  
+  background: yellow;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+.partOne{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+  gap: 2rem;
+}
+.bulbSection .bulb img{
+  width: 60px;
+  height: 60px;
+  margin: 20px;
+}
+.bulbSection h3{
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 800;
+}
+.bulbSection p{
+  color: #f0f0f0;
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+
+.partTwo{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+   
+  
+}
+.usercount{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   background:  #9366d2 ;
+   padding: 10px 60px;
+   border-radius: 20px;
+}
+.TopicCount{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    background:  #9366d2 ;
+     padding: 10px 60px;
+      border-radius: 20px;
+}
 
 .footer {
   background: #fff;
@@ -467,12 +613,44 @@
     flex-direction: column;
     
   }
+
   .two ,.three , .four, h2{
-    padding-top: 50px;
+    padding-top: 50px ;
+  }
+  .five{
+    flex-direction: column;
+  }
+  .firstBox, .secondBox{
+    width: 100%;
   }
   .footer-top {
     flex-direction: column;
   }
 
   
+}
+@media screen and (max-width: 420px) {
+  .content{
+    width: 100%;
+    padding: 10px;
+    gap: 20px;
+  }
+  .constent h2 {
+    font-size: 28px;
+  }
+  .content p {
+    font-size: 18px;
+  }
+  .btn{
+    display: flex;
+    flex-direction: column;
+  }
+  .partTwo{
+    flex-direction: column;
+    gap: 20px;
+  }
+.logo-links{
+    flex-direction: column;
+    gap: 20px;
+}
 }
