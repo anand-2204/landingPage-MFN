@@ -28,11 +28,13 @@ const LandingPage = () => {
               </a>
             </div>
 
-            <h2>Find Lost Items Easily with GPS</h2>
+            <h2>Center For Unidentified & Missing Persons</h2>
             <p>
-              Use our app to easily discover lost items nearby with the help of AI assistance and smart geo‑tagging.
-               Our intelligent system quickly matches lost and found reports, making it faster to reunite owners with their belongings
-            </p>
+              Missing Found Network is a Non-profit 100% volunteer organization devoted to
+               assisting investigating agencies in bringing closure to national 
+              cold cases concerning Missing & Unidentified Persons.
+               It is our mission to give the nameless back their names and return the
+                missing to their families.</p>
 
             <div className="btn">
               <button className="playstore">
@@ -51,85 +53,94 @@ const LandingPage = () => {
       </section>
       <section className="two">
         <h2>Why Choose Missing Found Network</h2>
-        <p>Join thousands of curious minds exploring knowledge togetter</p>
+        <p>Join hands with families, volunteers,
+           and communities to bring missing loved ones back home.</p>
         <div className="features">
           <div className="featureContent">
-            <div className="imageBox">   <img src="/question.png" alt="" />  </div>
+            <div className="imageBox">   <img src="/missing.png" alt="" />  </div>
            
-            <h3>Ask Anything</h3>
+            <h3>Instant Alerts</h3>
             <p>
-              Post your questions and get thoughtful answers from a community of
-              knowledgeable people.
+              Receive immediate notifications when someone
+               goes missing in your area, so you can act 
+               quickly.
+     
             </p>
           </div>
           <div className="featureContent">
-             <div className="imageBox">    <img src="/file.png" alt="" /> </div>
+             <div className="imageBox">    <img src="/location.png" alt="" /> </div>
            
-            <h3>Share Knowledge</h3>
+            <h3>Location Tracking</h3>
             <p>
-              Contribute your expertise and help others learn. Build your
-              reputation as a trusted expert.
+             Share last‑seen details and track search efforts
+              with interactive maps to coordinate effectively.
+      
             </p>
           </div>
           <div className="featureContent">
              <div className="imageBox">   <img src="/connect.png" alt="" />  </div>
            
-            <h3>Connect & Learn</h3>
+            <h3>Community Support</h3>
             <p>
-              Join a vibrant community of curious minds. Discover new
-              perspectives and grow together.
+               Connect with volunteers, NGOs, and local 
+               authorities to strengthen search and rescue 
+               efforts.
+     
             </p>
           </div>
           <div className="featureContent">
              <div className="imageBox">   <img src="/lightning.png" alt="" />  </div>
            
-            <h3>Lightning Fast</h3>
+            <h3>Rapid Response</h3>
             <p>
-              Get instant answers with our optimized platform. No waiting, just
-              pure knowledge exchange.
+               Our platform ensures fast communication between families and responders, reducing critical delays.
+      
             </p>
           </div>
           <div className="featureContent">
              <div className="imageBox">     <img src="/shield.png" alt="" /> </div>
           
-            <h3>Safe & Secure</h3>
+            <h3>Safe & Verified</h3>
             <p>
-              Your privacy matters. We ensure a safe environment for meaningful
-              discussions.
+                All reports are verified to prevent misinformation,
+                 ensuring a safe and trustworthy environment.
+      
             </p>
           </div>
           <div className="featureContent">
              <div className="imageBox">  <img src="/doller.png" alt="" />  </div>
             
-            <h3>100% Free</h3>
+            <h3>Always Free</h3>
             <p>
-              No hidden costs, no premium tiers. Knowledge should be accessible
-              to everyone, always.
+              Families should never pay to find their loved ones. Our mission is free and accessible to all.
+     
             </p>
           </div>
         </div>
       </section>
       <section className="three">
         <h2>How It Works</h2>
-        <p>Get started in three simple steps</p>
+        <p>Reconnect in three simple steps</p>
         <div className="features">
           <div className="featureContent">
             <div className="number">
               <h3>1</h3>
             </div>
-            <h3>Sign Up Free</h3>
+            <h3>Create Your Profile</h3>
             <p>
-              Create your account in seconds. No credit card required,
-              completely free forever.
+               Sign up quickly and securely. Share basic details so the community
+        knows who you are and how to reach you.
+
             </p>
           </div>
           <div className="featureContent">
             <div className="number">
               <h3>2</h3>
             </div>
-            <h3>Ask or Answer</h3>
+            <h3>Report or Search</h3>
             <p>
-               "Report your lost items or help others by sharing what you’ve found."
+                Post information about missing persons, or browse listings
+        to see if someone has already reported a match.
 
             </p>
           </div>
@@ -137,11 +148,11 @@ const LandingPage = () => {
             <div className="number">
               <h3>3</h3>
             </div>
-            <h3>Grow Together</h3>
+            <h3>Connect & Reunite</h3>
             <p>
-              "Post details of what you’ve lost,
-              or assist others by responding to their 
-              listings."
+              Reach out directly through the platform, share updates, and help
+        bring people back together safely.
+
 
             </p>
           </div>
@@ -149,22 +160,24 @@ const LandingPage = () => {
       </section>
       <section className="four">
         <h2>What Our Users Say</h2>
-        <p>Join thousands of satisfied users</p>
+        <p>Join thousands of grateful families</p>
         <div className="features">
           <div className="featureContent">
-            <div>⭐⭐⭐⭐⭐</div>
+            <div>⭐⭐⭐⭐</div>
             <div>
               <p>
-               I’m so relieved to have my laptop back! The process was smooth,
-                and I really appreciate the verification step—it made me feel secure that my item was returned to the right person."
-              </p>
+               "When my younger brother went missing in the city, I was terrified.
+          Thanks to this network, we were able to post details quickly and
+          connect with someone who had seen him nearby. We reunited within
+          hours—it felt like a miracle."
+</p>
             </div>
             <div className="user">
               <div className="profile">
                 <h3>A</h3>
               </div>
               <div>
-                <h3>Amit kumar</h3>
+                <h3>Anjali Rao</h3>
                 <p>Student</p>
               </div>
             </div>
@@ -173,18 +186,20 @@ const LandingPage = () => {
           <div className="featureContent">
             <div>⭐⭐⭐⭐⭐</div>
             <div>
-              <p>
-                Posting my lost phone was simple, and I quickly got matched with the finder.
-                 The clear instructions and mobile-friendly design made the whole experience stress-free."
-              </p>
+               <p>
+          "My elderly father, who has memory issues, wandered off one evening.
+          A kind stranger reported him here, and we were notified immediately.
+          The platform gave us hope and helped bring him home safely."
+        </p>
+
             </div>
             <div className="user">
               <div className="profile">
-                <h3>P</h3>
+                <h3>M</h3>
               </div>
               <div>
-                <h3>Priya Sharma</h3>
-                <p>Developer</p>
+                <h3>Mehul Desai</h3>
+                <p>Entrepreneur</p>
               </div>
             </div>
           </div>
@@ -192,18 +207,20 @@ const LandingPage = () => {
           <div className="featureContent">
             <div>⭐⭐⭐⭐⭐</div>
             <div>
-              <p>
-               "I never thought I’d see my wallet again, but thanks to this platform and the kind people using it, 
-               I did. It’s wonderful to have a space that encourages honesty and helps connect people."
-              </p>
+             <p>
+          "We were reunited with our little daughter after she got separated
+          during a crowded festival. The community’s quick response and the
+          platform’s alerts made all the difference. We’ll always be grateful."
+        </p>
+
             </div>
             <div className="user">
               <div className="profile">
                 <h3>R</h3>
               </div>
               <div>
-                <h3>Rahul Verma</h3>
-                <p>Teacher</p>
+                <h3>Ritika Sharma</h3>
+                <p>Parent</p>
               </div>
             </div>
           </div>
@@ -213,19 +230,18 @@ const LandingPage = () => {
         <div className="firstBox">
           <h2>Our Mission</h2>
           <p>
-            
-            The Lost and Found Network is a 
-            GPS-based platform that allows users to report 
-            found items and search for lost belongings 
-            using AI-generated descriptions and geo tags 
-            for easy retrieval
-          </p>
-          <p>
-           Join our community to help reunite lost 
-           items with their owners. Simply take a picture, 
-           submit it, and let our AI assist in finding what 
-           you’ve lost or reporting what you’ve found.
-          </p>
+      The Missing & Found Network is a GPS-powered platform designed to bring
+      peace of mind to families and communities. Whether it’s a misplaced item
+      or a missing loved one, our AI-driven system uses smart descriptions and
+      geo-tags to make searching faster, safer, and more reliable.
+    </p>
+    <p>
+      We believe in the power of community. By joining us, you can help reunite
+      people with what matters most. Simply share a photo or description, and
+      let our intelligent matching system connect reports with potential leads
+      in real time.
+    </p>
+
         </div>
         <div class="secondBox">
           <div className="bulbSection">
@@ -234,17 +250,17 @@ const LandingPage = () => {
               <img src="/bulb.png" alt="icon" />
             </div>
             <h3>1, 00, 000 +</h3>
-            <p>Items Recovered</p>
+            <p>Successful Reunions</p>
           </div>
 
           <div class="partTwo">
             <div className="usercount">
               <h3>50, 000 +</h3>
-              <p>Active Users</p>
+              <p>Active Members</p>
             </div>
             <div className="TopicCount">
               <h3>500 +</h3>
-              <p>Topics</p>
+              <p>Communities & Topics</p>
             </div>
           </div>
           </div>
@@ -259,9 +275,11 @@ const LandingPage = () => {
               <div className="footerDetails">
                 <h2>Get in Touch</h2>
                 <p>
-                 Reach out to us for assistance with lost items or to report
-                  found objects using our GPS-based platform.
-                </p>
+            Need help finding a missing person or reporting someone found?
+            Our GPS-powered platform is here to connect families, friends,
+            and communities with real-time updates and secure communication.
+          </p>
+
 
                 <div className="btn">
                   <button className="playstore">
@@ -281,11 +299,12 @@ const LandingPage = () => {
                     <img src="/37.png" alt="MFN Logo" width="200" height="60" />
                   </a>
                   <p className="footer-description">
-                   You can set up Find Hub so you’re prepared in case
-                    you lose your device. This feature works for phone,
-                     tablet, Wear OS watch, Android XR device, headphones,
-                      or something that has a tracker tag attached
-                  </p>
+              The Missing & Found Network helps reunite families and restore
+              peace of mind. Whether it’s a child, an elderly loved one, or
+              someone separated in a crowd, our platform uses GPS and AI
+              matching to bring people back together safely.
+            </p>
+
                   <div className="footer-actions">
                     <a href="#">Visit Website</a>
                   </div>
@@ -299,13 +318,13 @@ const LandingPage = () => {
                         <a href="#">Home</a>
                       </li>
                       <li>
-                        <a href="#">Questions</a>
+                        <a href="#">Report</a>
                       </li>
                       <li>
-                        <a href="#">Answers</a>
+                        <a href="#">Matches</a>
                       </li>
                       <li>
-                        <a href="#">Topics</a>
+                        <a href="#">Community</a>
                       </li>
                     </ul>
                   </div>
@@ -331,7 +350,8 @@ const LandingPage = () => {
             </div>
 
             <div className="footer-bottom">
-              <p>© 2026 MFN . All rights reserved.</p>
+             <p>© 2026 Missing & Found Network. All rights reserved.</p>
+
             </div>
           </div>
         </footer>
